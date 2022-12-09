@@ -1,15 +1,21 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2022 at 09:33 AM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 8.1.5
+-- Generation Time: Dec 09, 2022 at 04:37 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 7.4.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `chat_bot_db`
@@ -43,7 +49,31 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (7, '::1'),
 (1, '::1'),
 (1, '::1'),
-(7, '::1');
+(7, '::1'),
+(7, '::1'),
+(7, '::1'),
+(6, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(7, '::1'),
+(7, '::1'),
+(8, '::1'),
+(7, '::1'),
+(6, '::1'),
+(8, '::1'),
+(7, '::1'),
+(6, '::1'),
+(8, '::1'),
+(7, '::1'),
+(6, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1');
 
 -- --------------------------------------------------------
 
@@ -68,9 +98,10 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (3, 'Sample Query 3'),
 (4, 'Suggestion 1'),
 (5, 'Suggestion 2'),
-(6, 'Suggestion 3'),
-(7, 'How does this work?'),
-(8, 'test');
+(8, 'Lets Gooo'),
+(7, 'ICT'),
+(6, 'I love networking'),
+(6, 'idont like networking');
 
 -- --------------------------------------------------------
 
@@ -95,9 +126,9 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (3, '<p><span style=\"color: rgb(0, 0, 0); font-family: \"Open Sans\", Arial, sans-serif; text-align: justify;\">Nam eget fermentum quam. Sed risus dolor, gravida ac faucibus non, facilisis in odio. Etiam quis felis quis ipsum eleifend consectetur et at elit. In mattis ullamcorper lorem ac dictum.</span><br></p>', 1, '2022-05-05 11:38:44', '2022-05-05 12:54:28'),
 (4, '<p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">Suspendisse efficitur eros orci, at tristique mauris congue sit amet. Phasellus pretium vulputate urna et finibus. Maecenas venenatis dignissim turpis non lobortis. Praesent ornare felis ligula, ut rutrum elit tincidunt eu. Proin imperdiet faucibus erat eu euismod. Cras luctus nunc eget ligula ultrices porta. Proin dictum, elit vel porttitor vulputate, tellus sem porta dui, quis rhoncus lacus turpis vitae mauris. Integer at dui consequat, porta lorem ut, ornare mauris.</span><br></p>', 1, '2022-05-05 14:40:29', '2022-05-05 14:40:29'),
 (5, '<p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">Donec metus erat, porta consequat justo sit amet, euismod mollis dolor. Vestibulum euismod, nulla tincidunt maximus sodales, massa risus volutpat mi, a rutrum est sem non leo. Aenean vel ligula eu nunc ultrices rhoncus non ac libero. Quisque consectetur augue nec tortor tincidunt rutrum. Ut sagittis imperdiet auctor.</span><br></p>', 1, '2022-05-05 14:41:00', '2022-05-05 14:41:00'),
-(6, '<p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">Pellentesque rutrum mi sem. Duis nisl arcu, mollis sed porttitor et, feugiat vel augue. Fusce pulvinar leo non ex convallis lacinia. In ullamcorper, nibh nec dignissim gravida, nibh leo placerat nisl, a dapibus quam nulla dictum est. Vestibulum rutrum vestibulum ex. Quisque eget mi nec orci vulputate pharetra quis quis sem.</span><br></p>', 1, '2022-05-05 14:41:36', '2022-05-05 14:41:36'),
-(7, '<p>On this simple ChatBot Application, You can query anything and the system will automatically browse a response that is stored on this site. </p><p>The queries fetch a response that has an equivalent keyword.</p><p>Also, the application consists of suggestion keywords to query.</p>', 1, '2022-05-05 15:19:35', '2022-05-05 15:28:59'),
-(8, '<p>test</p>', 1, '2022-05-05 15:31:31', '2022-05-05 15:31:31');
+(6, '<p><span style=\"color: rgb(0, 0, 0); font-family: \" open=\"\" sans\",=\"\" arial,=\"\" sans-serif;=\"\" text-align:=\"\" justify;\"=\"\">Are you feel at ease with technology?</span><br></p>', 1, '2022-05-05 14:41:36', '2022-12-09 22:44:16'),
+(7, '<p>Are you interested in networking?<br></p>', 1, '2022-05-05 15:19:35', '2022-12-09 22:38:30'),
+(8, '<p>Pick a strand that you want to dive in.<br>Take note that take the quiz seriously and list down your answers as we assess the results of the quiz at the end of the quiz.</p>', 1, '2022-05-05 15:31:31', '2022-12-09 21:03:07');
 
 -- --------------------------------------------------------
 
@@ -121,12 +152,16 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (4, 'Suggestion 3'),
 (5, 'Suggestion 1'),
 (5, 'Suggestion 3'),
-(6, 'Suggestion 1'),
-(6, 'Suggestion 2'),
-(7, 'Hi'),
-(7, 'Hello'),
-(7, 'Hello There'),
-(8, 'test');
+(8, 'GAS'),
+(8, 'STEM'),
+(8, 'HUMMS'),
+(8, 'ABM'),
+(8, 'ICT'),
+(8, 'ARTS AND DESIGN'),
+(7, 'I love networking'),
+(7, 'idont like networking'),
+(6, 'I feel at ease with technology'),
+(6, 'idont feel at ease with technology');
 
 -- --------------------------------------------------------
 
@@ -151,8 +186,8 @@ INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
 (13, 'user_avatar', 'uploads/user_avatar.jpg'),
 (14, 'cover', 'uploads/cover.png?v=1651712184'),
 (15, 'no_answer', '<p>Sorry, I don&apos;t have any response to your query. Try to rephrase or rewrite your query. Thanks!</p>'),
-(16, 'suggestion', '[\"How does this work?\",\"Hello\",\"Hi\"]'),
-(17, 'welcome_message', '<p>Hi there! Welcome to our site.  You can ask me anything and I will try my best to answer it all.  </p>'),
+(16, 'suggestion', '[\"Lets Gooo\",\"\",\"\"]'),
+(17, 'welcome_message', '<p>Are you ready to put your mind to the test and pick the right strand for you to take when you reach Senior High School?<br>If yes, then let&apos;s start!  </p>'),
 (18, 'bot_name', 'ChattyBot');
 
 -- --------------------------------------------------------
@@ -180,7 +215,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `password`, `avatar`, `last_login`, `type`, `date_added`, `date_updated`) VALUES
 (1, 'Adminstrator', 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatars/1.png?v=1649834664', NULL, 1, '2021-01-20 14:02:37', '2022-04-13 15:24:24'),
-(4, 'Mark', 'Cooper', 'mcooper', 'c7162ff89c647f444fcaa5c635dac8c3', 'uploads/avatars/4.png?v=1651645642', NULL, 2, '2022-05-04 14:27:21', '2022-05-04 14:27:22');
+(5, 'stafFname', 'stafLname', 'stafUname', 'e807f1fcf82d132f9bb018ca6738a19f', NULL, NULL, 2, '2022-12-09 22:52:27', '2022-12-09 22:52:27'),
+(6, 'Enchong', 'Dee Vera', 'Enchong', '0192023a7bbd73250516f069df18b500', NULL, NULL, 1, '2022-12-09 22:53:05', '2022-12-09 22:53:05');
 
 --
 -- Indexes for dumped tables
@@ -242,7 +278,7 @@ ALTER TABLE `system_info`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables
@@ -266,3 +302,7 @@ ALTER TABLE `keyword_list`
 ALTER TABLE `suggestion_list`
   ADD CONSTRAINT `response_id_fk_sl` FOREIGN KEY (`response_id`) REFERENCES `response_list` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

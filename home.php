@@ -22,7 +22,7 @@
     }
 </style>
 <div class="container my-5">
-    <div class="card card-outline-navy rounded-0">
+    <div class="card card-outline-navy rounded-pill">
         <div class="card-header">
             <div class="d-flex w-100 align-items-center">
                 <div class="col-auto">
@@ -56,7 +56,7 @@
             </div>
             <div class="d-flex w-100 align-items-center">
                 <div class="col-auto flex-shrink-1 flex-grow-1">
-                    <textarea name="keyword" id="keyword" cols="30" class="form-control form-control-sm rounded-0" placeholder="Write your query here" rows="2"></textarea>
+                    <textarea name="keyword" id="keyword" cols="30" class="form-control form-control-sm rounded-pill" placeholder="Write your query here" rows="2"></textarea>
                 </div>
                 <div class="col-auto">
                     <button class="btn btn-outline-primary border-0 rounded-0" type="button" id="submit"><i class="fa fa-paper-plane"></i></button>
