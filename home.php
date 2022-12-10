@@ -56,10 +56,11 @@
             </div>
             <div class="d-flex w-100 align-items-center">
                 <div class="col-auto flex-shrink-1 flex-grow-1">
-                    <textarea name="keyword" id="keyword" cols="30" class="form-control form-control-sm rounded-pill" placeholder="Write your query here" rows="2"></textarea>
+                <?php $disabled = $_settings->info("isDisable"); ?>
+                    <textarea <?php echo $disabled ?> name="keyword" id="keyword" cols="30" class="form-control form-control-sm rounded-pill" placeholder="Write your query here" rows="2"></textarea>
                 </div>
                 <div class="col-auto">
-                    <button class="btn btn-outline-primary border-0 rounded-0" type="button" id="submit"><i class="fa fa-paper-plane"></i></button>
+                    <button <?php echo $disabled ?> class="btn btn-outline-primary border-0 rounded-0" type="button" id="submit"><i class="fa fa-paper-plane"></i></button>
                 </div>
             </div>
         </div>

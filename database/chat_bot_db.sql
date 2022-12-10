@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2022 at 04:37 PM
+-- Generation Time: Dec 10, 2022 at 02:19 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -73,7 +73,13 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (6, '::1'),
 (8, '::1'),
 (8, '::1'),
-(8, '::1');
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(8, '::1'),
+(7, '::1'),
+(6, '::1');
 
 -- --------------------------------------------------------
 
@@ -180,15 +186,16 @@ CREATE TABLE `system_info` (
 --
 
 INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
-(1, 'name', 'Simple Site Chat Bot'),
-(6, 'short_name', 'Chat Bot - PHP'),
-(11, 'logo', 'uploads/logo.png?v=1651712009'),
+(1, 'name', 'Chat Bot'),
+(6, 'short_name', 'BOT.AI'),
+(11, 'logo', 'uploads/logo.png?v=1670628401'),
 (13, 'user_avatar', 'uploads/user_avatar.jpg'),
-(14, 'cover', 'uploads/cover.png?v=1651712184'),
+(14, 'cover', 'uploads/cover.png?v=1670628927'),
 (15, 'no_answer', '<p>Sorry, I don&apos;t have any response to your query. Try to rephrase or rewrite your query. Thanks!</p>'),
 (16, 'suggestion', '[\"Lets Gooo\",\"\",\"\"]'),
 (17, 'welcome_message', '<p>Are you ready to put your mind to the test and pick the right strand for you to take when you reach Senior High School?<br>If yes, then let&apos;s start!  </p>'),
-(18, 'bot_name', 'ChattyBot');
+(18, 'bot_name', 'ChattyBot'),
+(19, 'isDisable', 'disabled');
 
 -- --------------------------------------------------------
 
@@ -272,7 +279,7 @@ ALTER TABLE `response_list`
 -- AUTO_INCREMENT for table `system_info`
 --
 ALTER TABLE `system_info`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `users`
