@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2022 at 03:16 AM
+-- Generation Time: Dec 11, 2022 at 12:33 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -108,7 +108,46 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (13, '::1'),
 (14, '::1'),
 (15, '::1'),
-(16, '::1');
+(16, '::1'),
+(8, '::1'),
+(9, '::1'),
+(10, '::1'),
+(11, '::1'),
+(12, '::1'),
+(13, '::1'),
+(14, '::1'),
+(15, '::1'),
+(16, '::1'),
+(17, '::1'),
+(18, '::1'),
+(8, '::1'),
+(9, '::1'),
+(10, '::1'),
+(11, '::1'),
+(12, '::1'),
+(13, '::1'),
+(14, '::1'),
+(15, '::1'),
+(16, '::1'),
+(17, '::1'),
+(18, '::1'),
+(19, '::1'),
+(8, '::1'),
+(9, '::1'),
+(10, '::1'),
+(11, '::1'),
+(12, '::1'),
+(13, '::1'),
+(14, '::1'),
+(15, '::1'),
+(16, '::1'),
+(17, '::1'),
+(18, '::1'),
+(19, '::1'),
+(20, '::1'),
+(21, '::1'),
+(22, '::1'),
+(23, '::1');
 
 -- --------------------------------------------------------
 
@@ -145,7 +184,17 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (17, 'Yes im not sure of what course to take in college'),
 (17, 'No im sure of what course to take in college'),
 (18, 'Yes i want to be a teacher'),
-(18, 'No i dont want to be a teacher');
+(18, 'No i dont want to be a teacher'),
+(19, 'Yes i want to focus on general knowledge'),
+(19, 'No i dont want to focus on general knowledge'),
+(20, 'Yes i want to learn more and dig deeper without any restrictions'),
+(20, 'No i dont want to learn more and dig deeper without any restrictions'),
+(21, 'I want to learn and weigh my options while doing them both at the same time'),
+(21, 'I dont want to learn and weigh my options while doing them both at the same time'),
+(22, 'Yes i want to learn everything without focusing on a specific subject'),
+(22, 'I dont want to learn everything without focusing on a specific subject'),
+(23, 'Im indecisive about the course that you will be taking in college'),
+(23, 'Im not indecisive about the course that you will be taking in college');
 
 -- --------------------------------------------------------
 
@@ -176,7 +225,12 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (15, '<p><span id=\"docs-internal-guid-d47f8004-7fff-4ad4-85e3-afe74cf2b35a\"></span></p><p dir=\"ltr\" style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:10pt;\"><span style=\"font-size:11pt;font-family:Calibri,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Have you thought about developing your communication skills?</span></p>', 1, '2022-12-11 10:04:47', '2022-12-11 10:04:47'),
 (16, '<p><span id=\"docs-internal-guid-8568432d-7fff-53f9-8fe1-5030bd4bbde9\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you not sure of what course to take in college?</span></span><br></p>', 1, '2022-12-11 10:10:03', '2022-12-11 10:10:03'),
 (17, '<p><span id=\"docs-internal-guid-77dd2abb-7fff-bed4-86c4-c6bcbc601662\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to be a teacher?</span></span><br></p>', 1, '2022-12-11 10:12:54', '2022-12-11 10:12:54'),
-(18, '<p><span id=\"docs-internal-guid-6105b6f8-7fff-bbcc-1fd6-950fce1d3b05\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to focus on general knowledge?</span></span><br></p>', 1, '2022-12-11 10:15:09', '2022-12-11 10:15:09');
+(18, '<p><span id=\"docs-internal-guid-6105b6f8-7fff-bbcc-1fd6-950fce1d3b05\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to focus on general knowledge?</span></span><br></p>', 1, '2022-12-11 10:15:09', '2022-12-11 10:15:09'),
+(19, '<p><span id=\"docs-internal-guid-b70afdb1-7fff-279f-9635-20ffb2137d03\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn more and dig deeper without any restrictions?</span></span><br></p>', 1, '2022-12-11 17:46:31', '2022-12-11 17:46:31'),
+(20, '<p><span id=\"docs-internal-guid-7cf52982-7fff-dfff-f347-d87ea58b7c5d\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn and weigh your options while doing them both at the same time?</span></span><br></p>', 1, '2022-12-11 17:50:02', '2022-12-11 17:50:02'),
+(21, '<p><span id=\"docs-internal-guid-c61ac73d-7fff-4c90-a039-6928786c4653\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do you want to learn everything without focusing on a specific subject?</span></span><br></p>', 1, '2022-12-11 19:28:44', '2022-12-11 19:28:44'),
+(22, '<p><span id=\"docs-internal-guid-3f77a1ef-7fff-8332-c1f9-2287f42928c2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you indecisive about the course that you will be taking in college?</span></span><br></p>', 1, '2022-12-11 19:30:35', '2022-12-11 19:30:35'),
+(23, '<p><span id=\"docs-internal-guid-8575bdfa-7fff-9d1b-3c5b-2ed9d1c20ef8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have more time on figuring out what you want to be in the future?</span></span><br></p>', 1, '2022-12-11 19:31:53', '2022-12-11 19:31:53');
 
 -- --------------------------------------------------------
 
@@ -219,7 +273,17 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (17, 'Yes i want to be a teacher'),
 (17, 'No i dont want to be a teacher'),
 (18, 'Yes i want to focus on general knowledge'),
-(18, 'No i dont want to focus on general knowledge');
+(18, 'No i dont want to focus on general knowledge'),
+(19, 'Yes i want to learn more and dig deeper without any restrictions'),
+(19, 'No i dont want to learn more and dig deeper without any restrictions'),
+(20, 'I want to learn and weigh my options while doing them both at the same time'),
+(20, 'I dont want to learn and weigh my options while doing them both at the same time'),
+(21, 'Yes i want to learn everything without focusing on a specific subject'),
+(21, 'I dont want to learn everything without focusing on a specific subject'),
+(22, 'Im indecisive about the course that you will be taking in college'),
+(22, 'Im not indecisive about the course that you will be taking in college'),
+(23, 'I have more time on figuring out what you want to be in the future'),
+(23, 'I dont have more time on figuring out what you want to be in the future');
 
 -- --------------------------------------------------------
 
@@ -325,7 +389,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `system_info`
