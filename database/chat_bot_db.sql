@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2022 at 11:56 AM
+-- Generation Time: Dec 17, 2022 at 03:19 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -225,7 +225,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (27, 'Yes i want freedom to explore more options before entering college'),
 (27, 'No i dont want to explore'),
 (28, 'Yes i want more opportunities'),
-(28, 'I dont want opportunities');
+(28, 'I dont want opportunities'),
+(29, 'Yes i think i can be anyone i like in the future'),
+(29, 'I dont think i can be anyone i like in the future'),
+(30, 'I am interested in learning broader subjects'),
+(30, 'I am not interested in learning broader subjects'),
+(31, 'Yes im willing to study mixed subjects so that i can have more options in the future'),
+(31, 'Im not willing to study mixed subjects'),
+(32, 'Yes i believe that this strand will help me sort out what you will be in the future'),
+(32, 'I dont believe that this strand will help me sort out what you will be in the future'),
+(33, 'Yes i think that learning mixed subjects will help me'),
+(33, 'I dont think that learning mixed subjects will not help me'),
+(34, 'I want to develop my communication and writing skills'),
+(34, 'I dont to develop my communication and writing skills'),
+(35, 'Yes i want to understand all of this'),
+(35, 'No i dont want to understand all of this'),
+(36, 'Yes i want to study about the core subjects that can also be found in other strands'),
+(36, 'No i dont want to study about the core subjects that can also be found in other strands'),
+(37, 'Yes i can focus'),
+(37, 'No i cant focus'),
+(38, 'Yes i want to involve myself in more general areas of study'),
+(38, 'I dont want to involve myself in more general areas of study');
 
 -- --------------------------------------------------------
 
@@ -266,7 +286,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (25, '<p><span id=\"docs-internal-guid-91e30b47-7fff-aef3-7662-14318a441962\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you should have a general knowledge in all subjects so that you can have more options before going to college?</span></span><br></p>', 1, '2022-12-17 18:43:43', '2022-12-17 18:43:43'),
 (26, '<p><span id=\"docs-internal-guid-5554812d-7fff-68ee-1aa4-85bd8c00308f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to have freedom to explore your options first before entering college?</span></span><br></p>', 1, '2022-12-17 18:47:59', '2022-12-17 18:47:59'),
 (27, '<p><span id=\"docs-internal-guid-a84dc815-7fff-3b56-4016-1bf062d23407\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to have more opportunities to open up for you?</span></span><br></p>', 1, '2022-12-17 18:52:14', '2022-12-17 18:52:14'),
-(28, '<p><span id=\"docs-internal-guid-c654cd13-7fff-7b3b-fb94-8ebdd35d2d04\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you can be anyone you like in the future?</span></span><br></p>', 1, '2022-12-17 18:54:47', '2022-12-17 18:54:47');
+(28, '<p><span id=\"docs-internal-guid-c654cd13-7fff-7b3b-fb94-8ebdd35d2d04\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you can be anyone you like in the future?</span></span><br></p>', 1, '2022-12-17 18:54:47', '2022-12-17 18:54:47'),
+(29, '<p><span id=\"docs-internal-guid-559ffbf0-7fff-ebd0-3740-492232cc496d\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in learning broader subjects?</span></span><br></p>', 1, '2022-12-17 19:13:30', '2022-12-17 19:13:30'),
+(30, '<p><span id=\"docs-internal-guid-1cfb03d5-7fff-9d55-c5b6-2e791c8271bf\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to study mixed subjects so that you can have more options in the future?</span></span><br></p>', 1, '2022-12-17 19:17:01', '2022-12-17 19:17:01'),
+(31, '<p><span id=\"docs-internal-guid-d5fc77f8-7fff-bd59-3916-4926a38c17f6\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you believe that this strand will help you sort out what you will be in the future?</span></span><br></p>', 1, '2022-12-17 19:19:05', '2022-12-17 19:19:05'),
+(32, '<p><span id=\"docs-internal-guid-37cf287b-7fff-b006-9531-4e643448ee51\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think that learning mixed subjects will help you distinguish what you want to be in the future?</span></span><br></p>', 1, '2022-12-17 19:21:44', '2022-12-17 19:21:44'),
+(33, '<p><span id=\"docs-internal-guid-5bc8a95d-7fff-7be6-bc00-066dfe71884e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to develop your communication and writing skills more?</span></span><br></p>', 1, '2022-12-17 19:26:47', '2022-12-17 19:26:47'),
+(34, '<p><span id=\"docs-internal-guid-ddafd3fe-7fff-39fa-a667-11b8fffd3bf7\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to understand history, literature, business marketing, and general mathematics at the same time?</span></span><br></p>', 1, '2022-12-17 21:57:11', '2022-12-17 21:57:11'),
+(35, '<p><span id=\"docs-internal-guid-5d8f3f1f-7fff-5a00-c18c-3eaa3595b2b3\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do you want to study about the core subjects that can also be found in other strands?</span></span><br></p>', 1, '2022-12-17 21:59:09', '2022-12-17 21:59:09'),
+(36, '<p><span id=\"docs-internal-guid-e35459ba-7fff-f3b2-3f32-749c9ff37985\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you can focus on studying a wide selection of subjects at the same time?</span></span><br></p>', 1, '2022-12-17 22:01:20', '2022-12-17 22:01:20'),
+(37, '<p><span id=\"docs-internal-guid-dcaa1295-7fff-9e1d-c453-f5f704d088e0\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to involve yourself in more general areas of study?</span></span><br></p>', 1, '2022-12-17 22:03:59', '2022-12-17 22:03:59'),
+(38, '<p><span id=\"docs-internal-guid-fc45a011-7fff-5a6b-b660-29d28bef8857\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to master the general areas of study?</span></span><br></p>', 1, '2022-12-17 22:05:21', '2022-12-17 22:05:21');
 
 -- --------------------------------------------------------
 
@@ -329,7 +359,27 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (27, 'Yes i want more opportunities'),
 (27, 'I dont want opportunities'),
 (28, 'Yes i think i can be anyone i like in the future'),
-(28, 'I dont think i can be anyone i like in the future');
+(28, 'I dont think i can be anyone i like in the future'),
+(29, 'I am interested in learning broader subjects'),
+(29, 'I am not interested in learning broader subjects'),
+(30, 'Yes im willing to study mixed subjects so that i can have more options in the future'),
+(30, 'Im not willing to study mixed subjects'),
+(31, 'Yes i believe that this strand will help me sort out what you will be in the future'),
+(31, 'I dont believe that this strand will help me sort out what you will be in the future'),
+(32, 'Yes i think that learning mixed subjects will help me'),
+(32, 'I dont think that learning mixed subjects will not help me'),
+(33, 'I want to develop my communication and writing skills'),
+(33, 'I dont to develop my communication and writing skills'),
+(34, 'Yes i want to understand all of this'),
+(34, 'No i dont want to understand all of this'),
+(35, 'Yes i want to study about the core subjects that can also be found in other strands'),
+(35, 'No i dont want to study about the core subjects that can also be found in other strands'),
+(36, 'Yes i can focus'),
+(36, 'No i cant focus'),
+(37, 'Yes i want to involve myself in more general areas of study'),
+(37, 'I dont want to involve myself in more general areas of study'),
+(38, 'I want to master the general areas of study'),
+(38, 'I dont want to master the general areas of study');
 
 -- --------------------------------------------------------
 
@@ -435,7 +485,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `system_info`
