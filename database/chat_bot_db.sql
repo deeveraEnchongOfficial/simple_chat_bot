@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2022 at 12:33 PM
+-- Generation Time: Dec 17, 2022 at 11:56 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -147,7 +147,28 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (20, '::1'),
 (21, '::1'),
 (22, '::1'),
-(23, '::1');
+(23, '::1'),
+(8, '::1'),
+(9, '::1'),
+(10, '::1'),
+(11, '::1'),
+(12, '::1'),
+(13, '::1'),
+(14, '::1'),
+(15, '::1'),
+(16, '::1'),
+(17, '::1'),
+(18, '::1'),
+(19, '::1'),
+(20, '::1'),
+(21, '::1'),
+(22, '::1'),
+(23, '::1'),
+(24, '::1'),
+(25, '::1'),
+(26, '::1'),
+(27, '::1'),
+(28, '::1');
 
 -- --------------------------------------------------------
 
@@ -194,7 +215,17 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (22, 'Yes i want to learn everything without focusing on a specific subject'),
 (22, 'I dont want to learn everything without focusing on a specific subject'),
 (23, 'Im indecisive about the course that you will be taking in college'),
-(23, 'Im not indecisive about the course that you will be taking in college');
+(23, 'Im not indecisive about the course that you will be taking in college'),
+(24, 'I have more time on figuring out what you want to be in the future'),
+(24, 'I dont have more time on figuring out what you want to be in the future'),
+(25, 'Yes i want to explore more before focusing on a specific course in college'),
+(25, 'I dont want to explore more before focusing on a specific course in college'),
+(26, 'Yes i think i should have a general knowledge in all subjects'),
+(26, 'No i shouldnt need a general knowledge in all subjects'),
+(27, 'Yes i want freedom to explore more options before entering college'),
+(27, 'No i dont want to explore'),
+(28, 'Yes i want more opportunities'),
+(28, 'I dont want opportunities');
 
 -- --------------------------------------------------------
 
@@ -230,7 +261,12 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (20, '<p><span id=\"docs-internal-guid-7cf52982-7fff-dfff-f347-d87ea58b7c5d\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn and weigh your options while doing them both at the same time?</span></span><br></p>', 1, '2022-12-11 17:50:02', '2022-12-11 17:50:02'),
 (21, '<p><span id=\"docs-internal-guid-c61ac73d-7fff-4c90-a039-6928786c4653\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do you want to learn everything without focusing on a specific subject?</span></span><br></p>', 1, '2022-12-11 19:28:44', '2022-12-11 19:28:44'),
 (22, '<p><span id=\"docs-internal-guid-3f77a1ef-7fff-8332-c1f9-2287f42928c2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you indecisive about the course that you will be taking in college?</span></span><br></p>', 1, '2022-12-11 19:30:35', '2022-12-11 19:30:35'),
-(23, '<p><span id=\"docs-internal-guid-8575bdfa-7fff-9d1b-3c5b-2ed9d1c20ef8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have more time on figuring out what you want to be in the future?</span></span><br></p>', 1, '2022-12-11 19:31:53', '2022-12-11 19:31:53');
+(23, '<p><span id=\"docs-internal-guid-8575bdfa-7fff-9d1b-3c5b-2ed9d1c20ef8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have more time on figuring out what you want to be in the future?</span></span><br></p>', 1, '2022-12-11 19:31:53', '2022-12-11 19:31:53'),
+(24, '<p><span id=\"docs-internal-guid-13f6e080-7fff-84d5-36f9-68c64f7a236a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to explore more before focusing on a specific course in college?</span></span><br></p>', 1, '2022-12-17 18:32:03', '2022-12-17 18:32:03'),
+(25, '<p><span id=\"docs-internal-guid-91e30b47-7fff-aef3-7662-14318a441962\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you should have a general knowledge in all subjects so that you can have more options before going to college?</span></span><br></p>', 1, '2022-12-17 18:43:43', '2022-12-17 18:43:43'),
+(26, '<p><span id=\"docs-internal-guid-5554812d-7fff-68ee-1aa4-85bd8c00308f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to have freedom to explore your options first before entering college?</span></span><br></p>', 1, '2022-12-17 18:47:59', '2022-12-17 18:47:59'),
+(27, '<p><span id=\"docs-internal-guid-a84dc815-7fff-3b56-4016-1bf062d23407\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to have more opportunities to open up for you?</span></span><br></p>', 1, '2022-12-17 18:52:14', '2022-12-17 18:52:14'),
+(28, '<p><span id=\"docs-internal-guid-c654cd13-7fff-7b3b-fb94-8ebdd35d2d04\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you can be anyone you like in the future?</span></span><br></p>', 1, '2022-12-17 18:54:47', '2022-12-17 18:54:47');
 
 -- --------------------------------------------------------
 
@@ -283,7 +319,17 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (22, 'Im indecisive about the course that you will be taking in college'),
 (22, 'Im not indecisive about the course that you will be taking in college'),
 (23, 'I have more time on figuring out what you want to be in the future'),
-(23, 'I dont have more time on figuring out what you want to be in the future');
+(23, 'I dont have more time on figuring out what you want to be in the future'),
+(24, 'Yes i want to explore more before focusing on a specific course in college'),
+(24, 'I dont want to explore more before focusing on a specific course in college'),
+(25, 'Yes i think i should have a general knowledge in all subjects'),
+(25, 'No i shouldnt need a general knowledge in all subjects'),
+(26, 'Yes i want freedom to explore more options before entering college'),
+(26, 'No i dont want to explore'),
+(27, 'Yes i want more opportunities'),
+(27, 'I dont want opportunities'),
+(28, 'Yes i think i can be anyone i like in the future'),
+(28, 'I dont think i can be anyone i like in the future');
 
 -- --------------------------------------------------------
 
@@ -389,7 +435,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `system_info`
