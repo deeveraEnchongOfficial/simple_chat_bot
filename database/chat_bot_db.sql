@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 18, 2022 at 05:41 AM
+-- Generation Time: Dec 18, 2022 at 12:23 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -390,7 +390,35 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (40, '::1'),
 (8, '::1'),
 (8, '::1'),
-(41, '::1');
+(41, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(44, '::1'),
+(45, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(44, '::1'),
+(45, '::1'),
+(46, '::1'),
+(47, '::1'),
+(48, '::1'),
+(49, '::1'),
+(50, '::1');
 
 -- --------------------------------------------------------
 
@@ -472,7 +500,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (40, 'Done'),
 (39, 'I want to master the general areas of study'),
 (39, 'I dont want to master the general areas of study'),
-(41, 'STEM');
+(41, 'STEM'),
+(42, 'Yes im good in subjects such as Math Science and English'),
+(42, 'No im not good in subjects such as Math Science and English'),
+(43, 'Yes my hobbies are related to Science English and Math'),
+(43, 'My hobbies are not related on Science English and Math'),
+(44, 'Yes i want to be a medtech engineer architect or a biologist in the future'),
+(44, 'I dont want to be a medtech engineer architect or a biologist'),
+(45, 'Yes im interested in innovation'),
+(45, 'No im not interested in innovation'),
+(46, 'Yes i consider myself a critical thinker'),
+(46, 'No i dont consider myself a critical thinker'),
+(47, 'Im interested in robotics'),
+(47, 'Im not interested in robotics'),
+(48, 'Yes i am willing to learn how the AI and machine language works'),
+(48, 'No im not willing to learn how the AI and machine language works'),
+(49, 'Yes i am interested to undergo an experiments'),
+(49, 'Im not interested to undergo an experiments'),
+(50, 'Yes im interested in unique earth science'),
+(50, 'Im not interested in unique earth science'),
+(51, 'I like phenomenon like meteorology and continental drifts'),
+(51, 'Im not interested on phenomenons');
 
 -- --------------------------------------------------------
 
@@ -526,7 +574,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (38, '<p><span id=\"docs-internal-guid-fc45a011-7fff-5a6b-b660-29d28bef8857\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to master the general areas of study?</span></span><br></p>', 1, '2022-12-17 22:05:21', '2022-12-17 22:05:21'),
 (39, '<p>If you answered 15 or more YESes then Congrats! You passed the quiz Otherwise if you answered 15 or more NO there are 5 more strands that\'s waiting for you<br></p>', 1, '2022-12-18 11:41:40', '2022-12-18 11:41:40'),
 (40, '<p><span id=\"docs-internal-guid-d3f8e7e9-7fff-b5b7-ad01-896212711f5b\"><span style=\"font-size: 10.5pt; font-family: Roboto, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Thank you for using this botAI do you want to restart?</span></span><br></p>', 1, '2022-12-18 12:19:25', '2022-12-18 12:19:25'),
-(41, '<p><span id=\"docs-internal-guid-58d437cf-7fff-faec-46c1-f6a17e4dd8ec\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you good in subjects such as Math, Science, and English?</span></span><br></p>', 1, '2022-12-18 12:26:24', '2022-12-18 12:26:24');
+(41, '<p><span id=\"docs-internal-guid-58d437cf-7fff-faec-46c1-f6a17e4dd8ec\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you good in subjects such as Math, Science, and English?</span></span><br></p>', 1, '2022-12-18 12:26:24', '2022-12-18 12:26:24'),
+(42, '<p><span id=\"docs-internal-guid-52960a64-7fff-e20a-6886-e3b99af2b109\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are your hobbies related to Science, English, and Math?</span></span><br></p>', 1, '2022-12-18 12:52:29', '2022-12-18 12:52:29'),
+(43, '<p><span id=\"docs-internal-guid-1768c467-7fff-2988-dabf-4a3d3be2a6fd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to be a medtech, engineer, architect, or a biologist in the future?</span></span><br></p>', 1, '2022-12-18 12:54:23', '2022-12-18 12:54:23'),
+(44, '<p><span id=\"docs-internal-guid-8c58496b-7fff-202d-5207-4d38a9b6eb86\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in innovation?</span></span><br></p>', 1, '2022-12-18 13:18:38', '2022-12-18 13:18:38'),
+(45, '<p><span id=\"docs-internal-guid-49d185cc-7fff-a4bf-da0c-3387879e7e39\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you consider yourself a critical thinker?</span></span><br></p>', 1, '2022-12-18 13:21:05', '2022-12-18 13:21:05'),
+(46, '<p><span id=\"docs-internal-guid-ab834c20-7fff-3580-c647-2aeb9ef4dd2a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you interested in robotics?</span></span><br></p>', 1, '2022-12-18 18:39:55', '2022-12-18 18:39:55'),
+(47, '<p><span id=\"docs-internal-guid-9c6abb81-7fff-ed0e-8cd4-374c0eab33da\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn how the AI and machine language works?</span></span><br></p>', 1, '2022-12-18 18:41:33', '2022-12-18 18:41:33'),
+(48, '<p><span id=\"docs-internal-guid-7a594edc-7fff-319a-37f6-f447e157da53\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in undergo an experiments?</span></span><br></p>', 1, '2022-12-18 18:43:44', '2022-12-18 18:43:44'),
+(49, '<p><span id=\"docs-internal-guid-2a65b2a2-7fff-e91f-54cf-eb750d37942f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in unique earth science?</span></span><br></p>', 1, '2022-12-18 19:15:22', '2022-12-18 19:15:22'),
+(50, '<p><span id=\"docs-internal-guid-4d4bb837-7fff-0107-9dbd-ce6e70e64aa9\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like phenomenon like meteorology and continental drifts?</span></span><br></p>', 1, '2022-12-18 19:17:41', '2022-12-18 19:17:41'),
+(51, '<p><span id=\"docs-internal-guid-f2c37f8c-7fff-caee-5131-15a233a6e05e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you curious about the evidences like fossils?</span></span><br></p>', 1, '2022-12-18 19:23:40', '2022-12-18 19:23:40');
 
 -- --------------------------------------------------------
 
@@ -613,8 +671,28 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (40, 'Lets Gooo'),
 (39, 'Pick New Stand'),
 (39, 'Done'),
-(41, 'Yes im good in subjects such as Math, Science, and English?'),
-(41, 'No im not good in subjects such as Math, Science, and English?');
+(41, 'Yes im good in subjects such as Math Science and English'),
+(41, 'No im not good in subjects such as Math Science and English'),
+(42, 'Yes my hobbies are related to Science English and Math'),
+(42, 'My hobbies are not related on Science English and Math'),
+(43, 'Yes i want to be a medtech engineer architect or a biologist in the future'),
+(43, 'I dont want to be a medtech engineer architect or a biologist'),
+(44, 'Yes im interested in innovation'),
+(44, 'No im not interested in innovation'),
+(45, 'Yes i consider myself a critical thinker'),
+(45, 'No i dont consider myself a critical thinker'),
+(46, 'Im interested in robotics'),
+(46, 'Im not interested in robotics'),
+(47, 'Yes i am willing to learn how the AI and machine language works'),
+(47, 'No im not willing to learn how the AI and machine language works'),
+(48, 'Yes i am interested to undergo an experiments'),
+(48, 'Im not interested to undergo an experiments'),
+(49, 'Yes im interested in unique earth science'),
+(49, 'Im not interested in unique earth science'),
+(50, 'I like phenomenon like meteorology and continental drifts'),
+(50, 'Im not interested on phenomenons'),
+(51, 'Yes im curious about the evidences like fossils'),
+(51, 'Im not curious about the evidences like fossils');
 
 -- --------------------------------------------------------
 
@@ -720,7 +798,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
 -- AUTO_INCREMENT for table `system_info`
