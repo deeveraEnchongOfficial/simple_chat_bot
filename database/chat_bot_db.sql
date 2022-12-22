@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2022 at 12:03 PM
+-- Generation Time: Dec 22, 2022 at 11:32 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -439,7 +439,97 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (57, '::1'),
 (58, '::1'),
 (59, '::1'),
-(60, '::1');
+(60, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(44, '::1'),
+(45, '::1'),
+(46, '::1'),
+(47, '::1'),
+(48, '::1'),
+(49, '::1'),
+(50, '::1'),
+(51, '::1'),
+(52, '::1'),
+(53, '::1'),
+(54, '::1'),
+(55, '::1'),
+(56, '::1'),
+(57, '::1'),
+(58, '::1'),
+(59, '::1'),
+(60, '::1'),
+(61, '::1'),
+(62, '::1'),
+(63, '::1'),
+(64, '::1'),
+(65, '::1'),
+(8, '::1'),
+(41, '::1'),
+(42, '::1'),
+(43, '::1'),
+(44, '::1'),
+(45, '::1'),
+(46, '::1'),
+(47, '::1'),
+(48, '::1'),
+(49, '::1'),
+(50, '::1'),
+(51, '::1'),
+(52, '::1'),
+(53, '::1'),
+(54, '::1'),
+(55, '::1'),
+(56, '::1'),
+(57, '::1'),
+(58, '::1'),
+(59, '::1'),
+(60, '::1'),
+(61, '::1'),
+(62, '::1'),
+(63, '::1'),
+(64, '::1'),
+(65, '::1'),
+(66, '::1'),
+(67, '::1'),
+(68, '::1'),
+(69, '::1'),
+(70, '::1'),
+(71, '::1'),
+(40, '::1'),
+(8, '::1'),
+(8, '::1'),
+(72, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(8, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1');
 
 -- --------------------------------------------------------
 
@@ -569,7 +659,28 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (64, 'Yes i think math is easy'),
 (64, 'Math is not easy'),
 (65, 'Yes i like to solve'),
-(65, 'No i dont like to solve');
+(65, 'No i dont like to solve'),
+(66, 'Yes im interested in computer languages'),
+(66, 'No im not interested in computer languages'),
+(67, 'Yes i enjoy science and mathematics'),
+(67, 'Science and mathematics are not my favorite'),
+(68, 'Yes im interested in solving real world problems and challenges'),
+(68, 'Im not interested in solving real world problems and challenges'),
+(69, 'I think im skilled at mathematics'),
+(69, 'I think im not good at mathematics'),
+(70, 'I have patience to learn long equations'),
+(70, 'I dont have patience to learn long equations'),
+(71, 'I have patience to explain mathematical theories to prove my point'),
+(71, 'I dont have patience to explain mathematical theories'),
+(72, 'HUMMS'),
+(73, 'Yes i like to enhance my speaking skills'),
+(73, 'I dont like to enhance my speaking skills'),
+(74, 'I want to focus on the study of human behavior'),
+(74, 'I dont want to focus on the study of human behavior'),
+(75, 'Political science interest me'),
+(75, 'Political science is not interesting'),
+(76, 'Yes im good at writing public speaking and statistics'),
+(76, 'Im not good at writing public speaking and statistics');
 
 -- --------------------------------------------------------
 
@@ -647,7 +758,18 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (62, '<p><span id=\"docs-internal-guid-f48e7510-7fff-8f58-d33d-d68ccad1ced6\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like computers?</span></span><br></p>', 1, '2022-12-21 18:58:13', '2022-12-21 18:58:13'),
 (63, '<p><span id=\"docs-internal-guid-7b3f70e4-7fff-be59-8c5e-b33f2d9b2add\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think math is easy?</span></span><br></p>', 1, '2022-12-21 18:59:41', '2022-12-21 18:59:41'),
 (64, '<p><span id=\"docs-internal-guid-e993ed24-7fff-11a5-1c78-53b2df64abc4\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like to solve?</span></span><br></p>', 1, '2022-12-21 19:01:04', '2022-12-21 19:01:04'),
-(65, '<p><span id=\"docs-internal-guid-604d11a6-7fff-51ff-6e81-1ffc080f070d\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in computer languages?</span></span><br></p>', 1, '2022-12-21 19:02:18', '2022-12-21 19:02:18');
+(65, '<p><span id=\"docs-internal-guid-604d11a6-7fff-51ff-6e81-1ffc080f070d\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in computer languages?</span></span><br></p>', 1, '2022-12-21 19:02:18', '2022-12-21 19:02:18'),
+(66, '<p><span id=\"docs-internal-guid-291e0788-7fff-5d19-5da3-de1385dfe365\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you enjoy science and mathematics content?</span></span><br></p>', 1, '2022-12-22 18:03:30', '2022-12-22 18:03:30'),
+(67, '<p><span id=\"docs-internal-guid-f5d06a9f-7fff-2a5b-960a-70f276da1040\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in solving real world problems and challenges?</span></span><br></p>', 1, '2022-12-22 18:05:06', '2022-12-22 18:05:06'),
+(68, '<p><span id=\"docs-internal-guid-1836d9f3-7fff-5674-0536-b9ef9d8ae952\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you are very skilled at mathematics?</span></span><br></p>', 1, '2022-12-22 18:06:28', '2022-12-22 18:06:28'),
+(69, '<p><span id=\"docs-internal-guid-f0937518-7fff-a488-7314-dd166a2d3b7f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have patience to learn long equations?</span></span><br></p>', 1, '2022-12-22 18:07:48', '2022-12-22 18:07:48'),
+(70, '<p><span id=\"docs-internal-guid-0cb34556-7fff-de3a-8954-8841800d6646\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have patience to explain mathematical theories to prove your point?</span></span><br></p>', 1, '2022-12-22 18:09:15', '2022-12-22 18:09:15'),
+(71, '<p><span id=\"docs-internal-guid-878ab1d4-7fff-d957-bda8-bf9de58346f7\"><span style=\"font-size: 10.5pt; font-family: Roboto, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">If you answered 15 or more YESes then Congrats! You passed the quiz Otherwise if you answered 15 or more NO there are 5 more strands that\'s waiting for you</span></span><br></p>', 1, '2022-12-22 18:13:31', '2022-12-22 18:13:31'),
+(72, '<p><span id=\"docs-internal-guid-2ff2033f-7fff-6510-f432-22f646e2c50a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like to enhance your speaking skills?</span></span><br></p>', 1, '2022-12-22 18:15:58', '2022-12-22 18:15:58'),
+(73, '<p><span id=\"docs-internal-guid-11f94ade-7fff-83ab-7a2e-b25dfe75f5bd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you want to focus on the study of human behavior?</span></span><br></p>', 1, '2022-12-22 18:17:25', '2022-12-22 18:17:25'),
+(74, '<p><span id=\"docs-internal-guid-a1a9d9ea-7fff-8ed4-e536-7d2ef41e0a45\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Does political science interest you?</span></span><br></p>', 1, '2022-12-22 18:24:31', '2022-12-22 18:24:31'),
+(75, '<p><span id=\"docs-internal-guid-60b4db52-7fff-375b-a6a5-0eaf9e3b1f17\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you good at writing, public speaking, and statistics?</span></span><br></p>', 1, '2022-12-22 18:25:42', '2022-12-22 18:25:42'),
+(76, '<p><span id=\"docs-internal-guid-b7ed1ec7-7fff-2bd6-5486-fbb11ee1d759\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in law, culture, religion, science, language, and everything in humanity?</span></span><br></p>', 1, '2022-12-22 18:26:45', '2022-12-22 18:26:45');
 
 -- --------------------------------------------------------
 
@@ -783,7 +905,29 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (64, 'Yes i like to solve'),
 (64, 'No i dont like to solve'),
 (65, 'Yes im interested in computer languages'),
-(65, 'No im not interested in computer languages');
+(65, 'No im not interested in computer languages'),
+(66, 'Yes i enjoy science and mathematics'),
+(66, 'Science and mathematics are not my favorite'),
+(67, 'Yes im interested in solving real world problems and challenges'),
+(67, 'Im not interested in solving real world problems and challenges'),
+(68, 'I think im skilled at mathematics'),
+(68, 'I think im not good at mathematics'),
+(69, 'I have patience to learn long equations'),
+(69, 'I dont have patience to learn long equations'),
+(70, 'I have patience to explain mathematical theories to prove my point'),
+(70, 'I dont have patience to explain mathematical theories'),
+(71, 'Pick New Stand'),
+(71, 'Done'),
+(72, 'Yes i like to enhance my speaking skills'),
+(72, 'I dont like to enhance my speaking skills'),
+(73, 'I want to focus on the study of human behavior'),
+(73, 'I dont want to focus on the study of human behavior'),
+(74, 'Political science interest me'),
+(74, 'Political science is not interesting'),
+(75, 'Yes im good at writing public speaking and statistics'),
+(75, 'Im not good at writing public speaking and statistics'),
+(76, 'Yes im interested in law culture religion science language and everything in humanity'),
+(76, 'Im not interested in law culture religion science language and everything in humanity');
 
 -- --------------------------------------------------------
 
@@ -889,7 +1033,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT for table `system_info`
