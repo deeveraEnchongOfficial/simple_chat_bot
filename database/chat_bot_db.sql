@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2022 at 11:32 AM
+-- Generation Time: Dec 24, 2022 at 06:53 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -529,7 +529,83 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (73, '::1'),
 (74, '::1'),
 (75, '::1'),
-(76, '::1');
+(76, '::1'),
+(8, '::1'),
+(72, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1'),
+(77, '::1'),
+(78, '::1'),
+(79, '::1'),
+(80, '::1'),
+(81, '::1'),
+(82, '::1'),
+(83, '::1'),
+(84, '::1'),
+(85, '::1'),
+(86, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1'),
+(77, '::1'),
+(78, '::1'),
+(79, '::1'),
+(80, '::1'),
+(81, '::1'),
+(82, '::1'),
+(83, '::1'),
+(84, '::1'),
+(85, '::1'),
+(86, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1'),
+(77, '::1'),
+(78, '::1'),
+(79, '::1'),
+(80, '::1'),
+(81, '::1'),
+(82, '::1'),
+(83, '::1'),
+(84, '::1'),
+(85, '::1'),
+(86, '::1'),
+(87, '::1'),
+(88, '::1'),
+(89, '::1'),
+(90, '::1'),
+(91, '::1'),
+(8, '::1'),
+(72, '::1'),
+(73, '::1'),
+(74, '::1'),
+(75, '::1'),
+(76, '::1'),
+(77, '::1'),
+(78, '::1'),
+(79, '::1'),
+(80, '::1'),
+(81, '::1'),
+(82, '::1'),
+(83, '::1'),
+(84, '::1'),
+(85, '::1'),
+(86, '::1'),
+(87, '::1'),
+(88, '::1'),
+(89, '::1'),
+(90, '::1'),
+(91, '::1');
 
 -- --------------------------------------------------------
 
@@ -680,7 +756,37 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (75, 'Political science interest me'),
 (75, 'Political science is not interesting'),
 (76, 'Yes im good at writing public speaking and statistics'),
-(76, 'Im not good at writing public speaking and statistics');
+(76, 'Im not good at writing public speaking and statistics'),
+(77, 'Yes im interested in law culture religion science language and everything in humanity'),
+(77, 'Im not interested in law culture religion science language and everything in humanity'),
+(78, 'I thought about the differences between the social sciences and the humanities'),
+(78, 'I Never Thought of the Differences Between the Social Sciences and the Humanities'),
+(79, 'Yes You dont have to be rich to get into the social sciences'),
+(79, 'No You have to be rich to get into the social sciences'),
+(80, 'Yes i want to know the contributions of social science to society'),
+(80, 'I dont want to know the contributions of social science to society'),
+(81, 'Yes i think i have enough knowledge about social science'),
+(81, 'I think i dont have enough knowledge about social science'),
+(82, 'Yes i thought about focusing on your reading and writing skills'),
+(82, 'No i didnt thought about focusing on your reading and writing skills'),
+(83, 'Yes i love reading articles'),
+(83, 'No i dont love reading articles'),
+(84, 'Yes im interested in blogs'),
+(84, 'I dont interested in blogs'),
+(85, 'Yes im strong in social science and humanity'),
+(85, 'Im weak in social science and humanity'),
+(86, 'Yes i want to be a Political Scientist'),
+(86, 'I dont want to be a Political Scientist'),
+(87, 'Yes i want to study the diversity of human behavior'),
+(87, 'I dont want to study the diversity of human behavior'),
+(88, 'Im interested in becoming a lawyer'),
+(88, 'Im not interested in becoming a lawyer'),
+(89, 'Yes debates catch my attention'),
+(89, 'Debates didnt catch my attention'),
+(90, 'Yes i want to boost my confidence'),
+(90, 'No i dont want to boost my confidence'),
+(91, 'Yes i want to know the stories essential to human existence'),
+(91, 'I dont want to know the stories essential to human existence');
 
 -- --------------------------------------------------------
 
@@ -769,7 +875,22 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (73, '<p><span id=\"docs-internal-guid-11f94ade-7fff-83ab-7a2e-b25dfe75f5bd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you want to focus on the study of human behavior?</span></span><br></p>', 1, '2022-12-22 18:17:25', '2022-12-22 18:17:25'),
 (74, '<p><span id=\"docs-internal-guid-a1a9d9ea-7fff-8ed4-e536-7d2ef41e0a45\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Does political science interest you?</span></span><br></p>', 1, '2022-12-22 18:24:31', '2022-12-22 18:24:31'),
 (75, '<p><span id=\"docs-internal-guid-60b4db52-7fff-375b-a6a5-0eaf9e3b1f17\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you good at writing, public speaking, and statistics?</span></span><br></p>', 1, '2022-12-22 18:25:42', '2022-12-22 18:25:42'),
-(76, '<p><span id=\"docs-internal-guid-b7ed1ec7-7fff-2bd6-5486-fbb11ee1d759\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in law, culture, religion, science, language, and everything in humanity?</span></span><br></p>', 1, '2022-12-22 18:26:45', '2022-12-22 18:26:45');
+(76, '<p><span id=\"docs-internal-guid-b7ed1ec7-7fff-2bd6-5486-fbb11ee1d759\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in law, culture, religion, science, language, and everything in humanity?</span></span><br></p>', 1, '2022-12-22 18:26:45', '2022-12-22 18:26:45'),
+(77, '<p><span id=\"docs-internal-guid-b4d24399-7fff-f229-9191-c960c0239ccd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Have you thought about the differences between social science and humanities?</span></span><br></p>', 1, '2022-12-24 12:21:11', '2022-12-24 12:21:11'),
+(78, '<p><span id=\"docs-internal-guid-ce675f72-7fff-9406-60f1-93e4c6007d6c\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">You don\'t have to be rich to get into the social sciences?</span></span><br></p>', 1, '2022-12-24 12:24:59', '2022-12-24 12:24:59'),
+(79, '<p><span id=\"docs-internal-guid-7337b90f-7fff-d110-5606-b3a3aaa9237b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to know the contributions of social science to society?</span></span><br></p>', 1, '2022-12-24 12:27:17', '2022-12-24 12:27:17'),
+(80, '<p><span id=\"docs-internal-guid-9e1aef0e-7fff-16f5-2fba-c59835c9aab2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you have enough knowledge about social science?</span></span><br></p>', 1, '2022-12-24 12:33:29', '2022-12-24 12:33:29'),
+(81, '<p><span id=\"docs-internal-guid-a91d3c94-7fff-7099-22f3-7a161e1b6d87\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Have you thought about focusing on your reading and writing skills?</span></span><br></p>', 1, '2022-12-24 12:35:05', '2022-12-24 12:35:05'),
+(82, '<p><span id=\"docs-internal-guid-736e9b76-7fff-20ae-81ff-e3d84e43b3ae\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love reading articles?</span></span><br></p>', 1, '2022-12-24 12:36:26', '2022-12-24 12:36:26'),
+(83, '<p><span id=\"docs-internal-guid-d2bc96a5-7fff-1705-c26a-9b1519b1c1c2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in blogs?</span></span><br></p>', 1, '2022-12-24 12:37:25', '2022-12-24 12:37:25'),
+(84, '<p><span id=\"docs-internal-guid-ae7e2e6e-7fff-fbd6-df6e-88e5be37f6c3\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you strong in social science and humanity?</span></span><br></p>', 1, '2022-12-24 12:38:57', '2022-12-24 12:38:57'),
+(85, '<p><span id=\"docs-internal-guid-77f524f9-7fff-7b63-b734-b2ec77f3a762\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to be a Political Scientist?</span></span><br></p>', 1, '2022-12-24 12:39:58', '2022-12-24 12:39:58'),
+(86, '<p><span id=\"docs-internal-guid-a08bd282-7fff-5447-5937-153f766caa00\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do you want to study the diversity of human behavior?</span></span><br></p>', 1, '2022-12-24 12:41:03', '2022-12-24 12:41:03'),
+(87, '<p><span id=\"docs-internal-guid-9cc1524b-7fff-67ee-274e-61ccee8d8a5e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in becoming a lawyer?</span></span><br></p>', 1, '2022-12-24 13:43:32', '2022-12-24 13:43:32'),
+(88, '<p><span id=\"docs-internal-guid-43eb896d-7fff-cd98-3620-8ecb22bb3980\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do debates catch your attention?</span></span><br></p>', 1, '2022-12-24 13:45:38', '2022-12-24 13:45:38'),
+(89, '<p><span id=\"docs-internal-guid-8a49f39d-7fff-fd3a-6fd9-6788750f31b2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to boost your confidence?</span></span><br></p>', 1, '2022-12-24 13:48:35', '2022-12-24 13:48:35'),
+(90, '<p><span id=\"docs-internal-guid-4158515a-7fff-3c5a-4cba-10f6dc2be4c1\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to know the stories essential to human existence?</span></span><br></p>', 1, '2022-12-24 13:50:36', '2022-12-24 13:50:36'),
+(91, '<p><span id=\"docs-internal-guid-0d395c64-7fff-2aed-106a-d6526c0e3270\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do visual arts attract you?</span></span><br></p>', 1, '2022-12-24 13:51:54', '2022-12-24 13:51:54');
 
 -- --------------------------------------------------------
 
@@ -927,7 +1048,37 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (75, 'Yes im good at writing public speaking and statistics'),
 (75, 'Im not good at writing public speaking and statistics'),
 (76, 'Yes im interested in law culture religion science language and everything in humanity'),
-(76, 'Im not interested in law culture religion science language and everything in humanity');
+(76, 'Im not interested in law culture religion science language and everything in humanity'),
+(77, 'I thought about the differences between the social sciences and the humanities'),
+(77, 'I Never Thought of the Differences Between the Social Sciences and the Humanities'),
+(78, 'Yes You dont have to be rich to get into the social sciences'),
+(78, 'No You have to be rich to get into the social sciences'),
+(79, 'Yes i want to know the contributions of social science to society'),
+(79, 'I dont want to know the contributions of social science to society'),
+(80, 'Yes i think i have enough knowledge about social science'),
+(80, 'I think i dont have enough knowledge about social science'),
+(81, 'Yes i thought about focusing on your reading and writing skills'),
+(81, 'No i didnt thought about focusing on your reading and writing skills'),
+(82, 'Yes i love reading articles'),
+(82, 'No i dont love reading articles'),
+(83, 'Yes im interested in blogs'),
+(83, 'I dont interested in blogs'),
+(84, 'Yes im strong in social science and humanity'),
+(84, 'Im weak in social science and humanity'),
+(85, 'Yes i want to be a Political Scientist'),
+(85, 'I dont want to be a Political Scientist'),
+(86, 'Yes i want to study the diversity of human behavior'),
+(86, 'I dont want to study the diversity of human behavior'),
+(87, 'Im interested in becoming a lawyer'),
+(87, 'Im not interested in becoming a lawyer'),
+(88, 'Yes debates catch my attention'),
+(88, 'Debates didnt catch my attention'),
+(89, 'Yes i want to boost my confidence'),
+(89, 'No i dont want to boost my confidence'),
+(90, 'Yes i want to know the stories essential to human existence'),
+(90, 'I dont want to know the stories essential to human existence'),
+(91, 'Yes visual arts attract me'),
+(91, 'No visual arts didnt attract me');
 
 -- --------------------------------------------------------
 
@@ -1033,7 +1184,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
 
 --
 -- AUTO_INCREMENT for table `system_info`
