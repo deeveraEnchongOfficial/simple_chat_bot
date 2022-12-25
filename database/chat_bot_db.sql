@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2022 at 02:20 AM
+-- Generation Time: Dec 25, 2022 at 02:35 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -1196,7 +1196,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (140, 'Yes i have knowledge about the concept of networking'),
 (140, 'I dont have knowledge about the concept of networking'),
 (141, 'Yes im interested in programming'),
-(141, 'Im not interested in programming');
+(141, 'Im not interested in programming'),
+(142, 'Yes i have knowledge about information technology'),
+(142, 'I dont have knowledge about information technology'),
+(143, 'Yes i want to become an IT professional'),
+(143, 'I dont want to become an IT professional'),
+(144, 'Yes im willing to learn how to manage a computer'),
+(144, 'Im not willing to learn how to manage a computer'),
+(145, 'Yes i have experience in graphic design'),
+(145, 'I dont have experience in graphic design'),
+(146, 'I consider myself good at logic'),
+(146, 'I didnt consider myself good at logic'),
+(147, 'Yes im good at solving some computer issues'),
+(147, 'Im not good at solving some computer issues'),
+(148, 'Yes im a critical thinker'),
+(148, 'Im not a critical thinker'),
+(149, 'Yes im familiar with the basic commands of a computer'),
+(149, 'Im not familiar with the basic commands of a computer'),
+(150, 'Yes i want to learn how to set up a computer'),
+(150, 'I dont want to learn how to set up a computer'),
+(151, 'Yes im willing to learn how to format and install an OS'),
+(151, 'Im not willing to learn how to format and install an OS');
 
 -- --------------------------------------------------------
 
@@ -1351,7 +1371,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (138, '<p><span id=\"docs-internal-guid-e2fd679f-7fff-d4f7-528f-46d9ba61efa3\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you feel at ease at technology?</span></span><br></p>', 1, '2022-12-25 09:16:50', '2022-12-25 09:16:50'),
 (139, '<p><span id=\"docs-internal-guid-6146eca7-7fff-b4ed-4235-8fe21548b1c3\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have any knowledge about the concept of networking?</span></span><br></p>', 1, '2022-12-25 09:18:01', '2022-12-25 09:18:01'),
 (140, '<p><span id=\"docs-internal-guid-acd4fabe-7fff-e219-35a5-0076fb410d63\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in programming?</span></span><br></p>', 1, '2022-12-25 09:19:02', '2022-12-25 09:19:02'),
-(141, '<p><span id=\"docs-internal-guid-10c09582-7fff-bd22-c28a-362dae3439a2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have any knowledge about information technology?</span></span><br></p>', 1, '2022-12-25 09:20:16', '2022-12-25 09:20:16');
+(141, '<p><span id=\"docs-internal-guid-10c09582-7fff-bd22-c28a-362dae3439a2\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have any knowledge about information technology?</span></span><br></p>', 1, '2022-12-25 09:20:16', '2022-12-25 09:20:16'),
+(142, '<p><span id=\"docs-internal-guid-533de6f6-7fff-bfd9-cf5e-13ac2775b297\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become an IT professional?</span></span><br></p>', 1, '2022-12-25 09:24:31', '2022-12-25 09:24:31'),
+(143, '<p><span id=\"docs-internal-guid-503985f7-7fff-c38b-c11f-775cbebb1412\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn how to manage a computer?</span></span><br></p>', 1, '2022-12-25 09:25:36', '2022-12-25 09:25:36'),
+(144, '<p><span id=\"docs-internal-guid-3466e8ef-7fff-d8b6-8716-5a9c747a3d71\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have any experience in graphic design?</span></span><br></p>', 1, '2022-12-25 09:26:51', '2022-12-25 09:26:51'),
+(145, '<p><span id=\"docs-internal-guid-acf6d052-7fff-f36f-cd13-bc23b8dbac43\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you consider yourself good at logic?</span></span><br></p>', 1, '2022-12-25 09:28:08', '2022-12-25 09:28:08'),
+(146, '<p><span id=\"docs-internal-guid-6681f4d9-7fff-12a2-f62f-54d0f6b8a1da\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you good at solving some computer issues?</span></span><br></p>', 1, '2022-12-25 09:29:13', '2022-12-25 09:29:13'),
+(147, '<p><span id=\"docs-internal-guid-ba423512-7fff-2b65-9434-26870a3ea69b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you consider yourself a critical thinker?</span></span><br></p>', 1, '2022-12-25 09:30:45', '2022-12-25 09:30:45'),
+(148, '<p><span id=\"docs-internal-guid-e9bce71f-7fff-9f15-c01c-2103502fdee8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you familiar with the basic commands of a computer?</span></span><br></p>', 1, '2022-12-25 09:31:55', '2022-12-25 09:31:55'),
+(149, '<p><span id=\"docs-internal-guid-a98900d1-7fff-f227-a029-68cef3f6493e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn how to set up a computer?</span></span><br></p>', 1, '2022-12-25 09:33:19', '2022-12-25 09:33:19'),
+(150, '<p><span id=\"docs-internal-guid-02aca07d-7fff-f295-dfaf-826e3f47edbc\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn how to format and install an OS?</span></span><br></p>', 1, '2022-12-25 09:34:29', '2022-12-25 09:34:29'),
+(151, '<p><span id=\"docs-internal-guid-73fd441e-7fff-e976-e88e-321a176a7773\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn how to create a cable that can connect to a computer?</span></span><br></p>', 1, '2022-12-25 09:35:34', '2022-12-25 09:35:34');
 
 -- --------------------------------------------------------
 
@@ -1639,7 +1669,27 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (140, 'Yes im interested in programming'),
 (140, 'Im not interested in programming'),
 (141, 'Yes i have knowledge about information technology'),
-(141, 'I dont have knowledge about information technology');
+(141, 'I dont have knowledge about information technology'),
+(142, 'Yes i want to become an IT professional'),
+(142, 'I dont want to become an IT professional'),
+(143, 'Yes im willing to learn how to manage a computer'),
+(143, 'Im not willing to learn how to manage a computer'),
+(144, 'Yes i have experience in graphic design'),
+(144, 'I dont have experience in graphic design'),
+(145, 'I consider myself good at logic'),
+(145, 'I didnt consider myself good at logic'),
+(146, 'Yes im good at solving some computer issues'),
+(146, 'Im not good at solving some computer issues'),
+(147, 'Yes im a critical thinker'),
+(147, 'Im not a critical thinker'),
+(148, 'Yes im familiar with the basic commands of a computer'),
+(148, 'Im not familiar with the basic commands of a computer'),
+(149, 'Yes i want to learn how to set up a computer'),
+(149, 'I dont want to learn how to set up a computer'),
+(150, 'Yes im willing to learn how to format and install an OS'),
+(150, 'Im not willing to learn how to format and install an OS'),
+(151, 'Yes i want to learn how to create a cable that can connect to a computer'),
+(151, 'I dont want to learn how to create a cable that can connect to a computer');
 
 -- --------------------------------------------------------
 
@@ -1745,7 +1795,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=142;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=152;
 
 --
 -- AUTO_INCREMENT for table `system_info`
