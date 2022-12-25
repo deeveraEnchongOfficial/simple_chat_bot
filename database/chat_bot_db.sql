@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2022 at 02:35 AM
+-- Generation Time: Dec 25, 2022 at 02:50 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -1216,7 +1216,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (150, 'Yes i want to learn how to set up a computer'),
 (150, 'I dont want to learn how to set up a computer'),
 (151, 'Yes im willing to learn how to format and install an OS'),
-(151, 'Im not willing to learn how to format and install an OS');
+(151, 'Im not willing to learn how to format and install an OS'),
+(152, 'Yes i want to learn how to create a cable that can connect to a computer'),
+(152, 'I dont want to learn how to create a cable that can connect to a computer'),
+(153, 'Yes i want to become familiar with computer parts'),
+(153, 'I dont want to become familiar with computer parts'),
+(154, 'Yes im interested in animation'),
+(154, 'Im not interested in animation'),
+(155, 'Yes i want to become a web developer'),
+(155, 'I dont want to become a web developer'),
+(156, 'Yes i want to become a tech specialist'),
+(156, 'I dont want to become a tech specialist'),
+(157, 'Yes i want to learn the proper way to set up a small network'),
+(157, 'I dont want to learn the proper way to set up a small network'),
+(158, 'Yes i want to become a data analyst'),
+(158, 'I dont want to become a data analyst'),
+(159, 'Yes im willing to learn different programming languages'),
+(159, 'Im not willing to learn different programming languages'),
+(160, 'Yes i want to become an illustrator'),
+(160, 'I dont want to become an illustrator'),
+(161, 'Yes im interested in assembling and disassembling system units'),
+(161, 'Im not interested in assembling and disassembling system units');
 
 -- --------------------------------------------------------
 
@@ -1381,7 +1401,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (148, '<p><span id=\"docs-internal-guid-e9bce71f-7fff-9f15-c01c-2103502fdee8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you familiar with the basic commands of a computer?</span></span><br></p>', 1, '2022-12-25 09:31:55', '2022-12-25 09:31:55'),
 (149, '<p><span id=\"docs-internal-guid-a98900d1-7fff-f227-a029-68cef3f6493e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn how to set up a computer?</span></span><br></p>', 1, '2022-12-25 09:33:19', '2022-12-25 09:33:19'),
 (150, '<p><span id=\"docs-internal-guid-02aca07d-7fff-f295-dfaf-826e3f47edbc\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn how to format and install an OS?</span></span><br></p>', 1, '2022-12-25 09:34:29', '2022-12-25 09:34:29'),
-(151, '<p><span id=\"docs-internal-guid-73fd441e-7fff-e976-e88e-321a176a7773\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn how to create a cable that can connect to a computer?</span></span><br></p>', 1, '2022-12-25 09:35:34', '2022-12-25 09:35:34');
+(151, '<p><span id=\"docs-internal-guid-73fd441e-7fff-e976-e88e-321a176a7773\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn how to create a cable that can connect to a computer?</span></span><br></p>', 1, '2022-12-25 09:35:34', '2022-12-25 09:35:34'),
+(152, '<p><span id=\"docs-internal-guid-a8fa254a-7fff-2465-09e1-986ce21c1fb1\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become familiar with computer parts?</span></span><br></p>', 1, '2022-12-25 09:40:14', '2022-12-25 09:40:14'),
+(153, '<p><span id=\"docs-internal-guid-4f93715e-7fff-5123-6c18-5e0d69aa9455\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in animation?</span></span><br></p>', 1, '2022-12-25 09:41:27', '2022-12-25 09:41:27'),
+(154, '<p><span id=\"docs-internal-guid-722f2d1d-7fff-4ace-701d-187c7ef50dfd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a web developer?</span></span><br></p>', 1, '2022-12-25 09:42:27', '2022-12-25 09:42:27'),
+(155, '<p><span id=\"docs-internal-guid-075f5a58-7fff-afa5-612e-3502f397ae3e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a tech specialist?</span></span><br></p>', 1, '2022-12-25 09:44:09', '2022-12-25 09:44:09'),
+(156, '<p><span id=\"docs-internal-guid-fea883eb-7fff-c6ef-2e25-b2a75f9e3c52\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to learn the proper way to set up a small network?</span></span><br></p>', 1, '2022-12-25 09:45:30', '2022-12-25 09:45:48'),
+(157, '<p><span id=\"docs-internal-guid-4a143de3-7fff-383d-c3d6-78b09ac54ed1\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a data analyst?</span></span><br></p>', 1, '2022-12-25 09:46:53', '2022-12-25 09:46:53'),
+(158, '<p><span id=\"docs-internal-guid-bcfc491c-7fff-708d-890a-c36f1a4372b8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn different programming languages?</span></span><br></p>', 1, '2022-12-25 09:48:01', '2022-12-25 09:48:01'),
+(159, '<p><span id=\"docs-internal-guid-b0c3ca32-7fff-4b82-f22f-073fefce7402\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become an illustrator?</span></span><br></p>', 1, '2022-12-25 09:48:56', '2022-12-25 09:48:56'),
+(160, '<p><span id=\"docs-internal-guid-91b35663-7fff-20cf-2892-e5d47b9a055b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in assembling and disassembling system units?</span></span><br></p>', 1, '2022-12-25 09:49:50', '2022-12-25 09:49:50'),
+(161, '<p><span id=\"docs-internal-guid-7b21c2ac-7fff-f5f9-d996-b74ab09f1016\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a layout artist?</span></span><br></p>', 1, '2022-12-25 09:50:43', '2022-12-25 09:50:43');
 
 -- --------------------------------------------------------
 
@@ -1689,7 +1719,27 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (150, 'Yes im willing to learn how to format and install an OS'),
 (150, 'Im not willing to learn how to format and install an OS'),
 (151, 'Yes i want to learn how to create a cable that can connect to a computer'),
-(151, 'I dont want to learn how to create a cable that can connect to a computer');
+(151, 'I dont want to learn how to create a cable that can connect to a computer'),
+(152, 'Yes i want to become familiar with computer parts'),
+(152, 'I dont want to become familiar with computer parts'),
+(153, 'Yes im interested in animation'),
+(153, 'Im not interested in animation'),
+(154, 'Yes i want to become a web developer'),
+(154, 'I dont want to become a web developer'),
+(155, 'Yes i want to become a tech specialist'),
+(155, 'I dont want to become a tech specialist'),
+(156, 'Yes i want to learn the proper way to set up a small network'),
+(156, 'I dont want to learn the proper way to set up a small network'),
+(157, 'Yes i want to become a data analyst'),
+(157, 'I dont want to become a data analyst'),
+(158, 'Yes im willing to learn different programming languages'),
+(158, 'Im not willing to learn different programming languages'),
+(159, 'Yes i want to become an illustrator'),
+(159, 'I dont want to become an illustrator'),
+(160, 'Yes im interested in assembling and disassembling system units'),
+(160, 'Im not interested in assembling and disassembling system units'),
+(161, 'Yes i want to become a layout artist'),
+(161, 'I dont want to become a layout artist');
 
 -- --------------------------------------------------------
 
@@ -1795,7 +1845,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=152;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=162;
 
 --
 -- AUTO_INCREMENT for table `system_info`
