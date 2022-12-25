@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2022 at 08:44 AM
+-- Generation Time: Dec 25, 2022 at 01:50 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -1074,7 +1074,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (115, 'Yes i think i can run a business'),
 (115, 'I think i cant run a business'),
 (116, 'Yes transactions interest me'),
-(116, 'No transactions didnt interest me');
+(116, 'No transactions didnt interest me'),
+(117, 'Yes i think that keeping track of business finances is a crucial part of any organization'),
+(117, 'I think that keeping track of business finances is a easy'),
+(118, 'Yes my family run a business that i will own someday'),
+(118, 'We dont have business'),
+(119, 'Yes bank transactions interest me'),
+(119, 'Bank transactions didnt interest me'),
+(120, 'Yes i want to control my own time'),
+(120, 'I dont want to control my own time'),
+(121, 'Yes im willing to help others grow in terms of business'),
+(121, 'I dont willing to help others grow in terms of business'),
+(122, 'Yes im interested to learn about investments'),
+(122, 'Im not interested to learn about investments'),
+(123, 'Yes i think that proper management of finances is a must in life'),
+(123, 'No i think that proper management of finances is not a must in life'),
+(124, 'Yes i can work with other types of people'),
+(124, 'No i cant work with other types of people'),
+(125, 'Yes i have a creative mind'),
+(125, 'No i dont have a creative mind'),
+(126, 'Yes im interested in financial management'),
+(126, 'Im not interested in financial management');
 
 -- --------------------------------------------------------
 
@@ -1203,7 +1223,18 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (113, '<p><span id=\"docs-internal-guid-d1c603b2-7fff-ae51-07e2-456d2bfc9379\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to know how to operate your own business?</span></span><br></p>', 1, '2022-12-24 15:40:32', '2022-12-24 15:40:32'),
 (114, '<p><span id=\"docs-internal-guid-c9328231-7fff-c32e-cb3d-fda4bed3bd7c\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think you can run a business?</span></span><br></p>', 1, '2022-12-24 15:41:49', '2022-12-24 15:41:49'),
 (115, '<p><span id=\"docs-internal-guid-cfff4ae9-7fff-fe77-dfe5-c88d2e2a7fca\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do transactions interest you?</span></span><br></p>', 1, '2022-12-24 15:43:08', '2022-12-24 15:43:08'),
-(116, '<p><span id=\"docs-internal-guid-56f624e8-7fff-0b3a-2693-f389dfc68594\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think that keeping track of business finances is a crucial part of any organization?</span></span><br></p>', 1, '2022-12-24 15:44:36', '2022-12-24 15:44:36');
+(116, '<p><span id=\"docs-internal-guid-56f624e8-7fff-0b3a-2693-f389dfc68594\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think that keeping track of business finances is a crucial part of any organization?</span></span><br></p>', 1, '2022-12-24 15:44:36', '2022-12-24 15:44:36'),
+(117, '<p><span id=\"docs-internal-guid-d750471f-7fff-4044-86cf-de9d3bb23d94\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Does your family run a business that you will own someday?</span></span><br></p>', 1, '2022-12-25 08:36:46', '2022-12-25 08:36:46'),
+(118, '<p><span id=\"docs-internal-guid-bd708e56-7fff-5519-79c2-dfc2868b4004\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do bank transactions interest you?</span></span><br></p>', 1, '2022-12-25 08:38:04', '2022-12-25 08:38:04'),
+(119, '<p><span id=\"docs-internal-guid-dcc58308-7fff-c77c-9be4-9ee4649507df\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to control your own time because you don\'t have a boss?</span></span><br></p>', 1, '2022-12-25 08:40:22', '2022-12-25 08:40:22'),
+(120, '<p><span id=\"docs-internal-guid-a8006ac1-7fff-57d8-341e-6a144a081495\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to help others grow in terms of business?</span></span><br></p>', 1, '2022-12-25 08:41:29', '2022-12-25 08:41:29'),
+(121, '<p><span id=\"docs-internal-guid-e7a73bbb-7fff-64ab-2265-d86f7c171c1c\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested to learn about investments?</span></span><br></p>', 1, '2022-12-25 08:42:27', '2022-12-25 08:42:27'),
+(122, '<p><span id=\"docs-internal-guid-f400e544-7fff-5acc-4cdd-9f13f44bf7c7\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think that proper management of finances is a must in life?</span></span><br></p>', 1, '2022-12-25 08:43:49', '2022-12-25 08:43:49');
+INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_updated`) VALUES
+(123, '<p dir=\"ltr\" style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:10pt;\"><span style=\"font-size:11pt;font-family:Calibri,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Do you think you can work with other types of people and document transactions properly</span></p><p><span id=\"docs-internal-guid-a924978a-7fff-f4c9-99be-8485899c546d\"></span></p><p dir=\"ltr\" style=\"line-height:1.3800000000000001;margin-top:0pt;margin-bottom:10pt;\"><span style=\"font-size:11pt;font-family:Calibri,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">for future references and analysis?</span></p>', 1, '2022-12-25 08:45:13', '2022-12-25 08:45:49'),
+(124, '<p><span id=\"docs-internal-guid-2d1285ea-7fff-6fc3-1f04-0fc3ae74a393\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you have a creative mind and can form unique ideas?</span></span><br></p>', 1, '2022-12-25 08:47:02', '2022-12-25 08:47:02'),
+(125, '<p><span id=\"docs-internal-guid-053b5592-7fff-83b6-18af-5a5215c0c96f\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in financial management?</span></span><br></p>', 1, '2022-12-25 08:48:43', '2022-12-25 08:48:43'),
+(126, '<p><span id=\"docs-internal-guid-f9bfdd1a-7fff-5483-aede-79e00d1a0010\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Does the term \"accounting\" interest you?</span></span><br></p>', 1, '2022-12-25 08:50:10', '2022-12-25 08:50:10');
 
 -- --------------------------------------------------------
 
@@ -1441,7 +1472,27 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (115, 'Yes transactions interest me'),
 (115, 'No transactions didnt interest me'),
 (116, 'Yes i think that keeping track of business finances is a crucial part of any organization'),
-(116, 'I think that keeping track of business finances is a easy');
+(116, 'I think that keeping track of business finances is a easy'),
+(117, 'Yes my family run a business that i will own someday'),
+(117, 'We dont have business'),
+(118, 'Yes bank transactions interest me'),
+(118, 'Bank transactions didnt interest me'),
+(119, 'Yes i want to control my own time'),
+(119, 'I dont want to control my own time'),
+(120, 'Yes im willing to help others grow in terms of business'),
+(120, 'I dont willing to help others grow in terms of business'),
+(121, 'Yes im interested to learn about investments'),
+(121, 'Im not interested to learn about investments'),
+(122, 'Yes i think that proper management of finances is a must in life'),
+(122, 'No i think that proper management of finances is not a must in life'),
+(123, 'Yes i can work with other types of people'),
+(123, 'No i cant work with other types of people'),
+(124, 'Yes i have a creative mind'),
+(124, 'No i dont have a creative mind'),
+(125, 'Yes im interested in financial management'),
+(125, 'Im not interested in financial management'),
+(126, 'Accounting interest me'),
+(126, 'Accounting didnt interest me');
 
 -- --------------------------------------------------------
 
@@ -1547,7 +1598,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=117;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 
 --
 -- AUTO_INCREMENT for table `system_info`
