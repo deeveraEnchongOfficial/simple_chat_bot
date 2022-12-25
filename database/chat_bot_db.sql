@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2022 at 02:50 AM
+-- Generation Time: Dec 25, 2022 at 03:06 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -913,7 +913,79 @@ INSERT INTO `keyword_fetched` (`response_id`, `client`) VALUES
 (39, '::1'),
 (8, '::1'),
 (8, '::1'),
-(132, '::1');
+(132, '::1'),
+(8, '::1'),
+(132, '::1'),
+(133, '::1'),
+(134, '::1'),
+(135, '::1'),
+(136, '::1'),
+(137, '::1'),
+(138, '::1'),
+(139, '::1'),
+(140, '::1'),
+(141, '::1'),
+(142, '::1'),
+(143, '::1'),
+(144, '::1'),
+(145, '::1'),
+(146, '::1'),
+(147, '::1'),
+(148, '::1'),
+(149, '::1'),
+(150, '::1'),
+(151, '::1'),
+(152, '::1'),
+(153, '::1'),
+(154, '::1'),
+(155, '::1'),
+(156, '::1'),
+(157, '::1'),
+(158, '::1'),
+(159, '::1'),
+(160, '::1'),
+(161, '::1'),
+(8, '::1'),
+(132, '::1'),
+(133, '::1'),
+(134, '::1'),
+(135, '::1'),
+(136, '::1'),
+(137, '::1'),
+(138, '::1'),
+(139, '::1'),
+(140, '::1'),
+(141, '::1'),
+(142, '::1'),
+(143, '::1'),
+(144, '::1'),
+(145, '::1'),
+(146, '::1'),
+(147, '::1'),
+(148, '::1'),
+(149, '::1'),
+(150, '::1'),
+(151, '::1'),
+(152, '::1'),
+(153, '::1'),
+(154, '::1'),
+(155, '::1'),
+(156, '::1'),
+(157, '::1'),
+(158, '::1'),
+(159, '::1'),
+(160, '::1'),
+(161, '::1'),
+(160, '::1'),
+(161, '::1'),
+(39, '::1'),
+(160, '::1'),
+(161, '::1'),
+(39, '::1'),
+(40, '::1'),
+(8, '::1'),
+(8, '::1'),
+(162, '::1');
 
 -- --------------------------------------------------------
 
@@ -1172,12 +1244,6 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (130, 'I cant think of unique ways on how to market my own product'),
 (131, 'Yes i think i can improve my own sales in the future'),
 (131, 'I think i cant improve my own sales in the future'),
-(39, 'I want to master the general areas of study'),
-(39, 'I dont want to master the general areas of study'),
-(39, 'Yes iwant to prove theories'),
-(39, 'Idont want to prove theories'),
-(39, 'Yes i think the market can help me be successful in the future'),
-(39, 'I think the market cant help me be successful in the future'),
 (132, 'ICT'),
 (133, 'Yes im willing to learn how to handle data using ICT'),
 (133, 'Im not willing to learn how to handle data using ICT'),
@@ -1236,7 +1302,34 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (160, 'Yes i want to become an illustrator'),
 (160, 'I dont want to become an illustrator'),
 (161, 'Yes im interested in assembling and disassembling system units'),
-(161, 'Im not interested in assembling and disassembling system units');
+(161, 'Im not interested in assembling and disassembling system units'),
+(39, 'I want to master the general areas of study'),
+(39, 'I dont want to master the general areas of study'),
+(39, 'Yes iwant to prove theories'),
+(39, 'Idont want to prove theories'),
+(39, 'Yes i think the market can help me be successful in the future'),
+(39, 'I think the market cant help me be successful in the future'),
+(39, 'Yes i want to become a layout artist'),
+(39, 'I dont want to become a layout artist'),
+(162, 'ARTS AND DESIGN'),
+(163, 'Yes i you like arts'),
+(163, 'I dont you like arts'),
+(164, 'Yes i use art to express my feelings'),
+(164, 'No i dont use art to express my feelings'),
+(165, 'Yes i love painting'),
+(165, 'I dont love painting'),
+(166, 'Yes i like performing'),
+(166, 'I dont like performing'),
+(167, 'Yes i love to explore different art forms'),
+(167, 'I dont love to explore different art forms'),
+(168, 'Yes i love to create things out of any kind of material'),
+(168, 'I dont like to create things out of any kind of material'),
+(169, 'Yes i love to dance'),
+(169, 'I dont like to dance'),
+(170, 'Yes i love to draw'),
+(170, 'I dont love to draw'),
+(171, 'Yes i love to combine different types of art styles'),
+(171, 'I dont like to combine different types of art styles');
 
 -- --------------------------------------------------------
 
@@ -1411,7 +1504,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (158, '<p><span id=\"docs-internal-guid-bcfc491c-7fff-708d-890a-c36f1a4372b8\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you willing to learn different programming languages?</span></span><br></p>', 1, '2022-12-25 09:48:01', '2022-12-25 09:48:01'),
 (159, '<p><span id=\"docs-internal-guid-b0c3ca32-7fff-4b82-f22f-073fefce7402\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become an illustrator?</span></span><br></p>', 1, '2022-12-25 09:48:56', '2022-12-25 09:48:56'),
 (160, '<p><span id=\"docs-internal-guid-91b35663-7fff-20cf-2892-e5d47b9a055b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in assembling and disassembling system units?</span></span><br></p>', 1, '2022-12-25 09:49:50', '2022-12-25 09:49:50'),
-(161, '<p><span id=\"docs-internal-guid-7b21c2ac-7fff-f5f9-d996-b74ab09f1016\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a layout artist?</span></span><br></p>', 1, '2022-12-25 09:50:43', '2022-12-25 09:50:43');
+(161, '<p><span id=\"docs-internal-guid-7b21c2ac-7fff-f5f9-d996-b74ab09f1016\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to become a layout artist?</span></span><br></p>', 1, '2022-12-25 09:50:43', '2022-12-25 09:50:43'),
+(162, '<p><span id=\"docs-internal-guid-f067e01f-7fff-b35f-72e4-32c671a05b3a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like arts?</span></span><br></p>', 1, '2022-12-25 09:57:02', '2022-12-25 09:57:02'),
+(163, '<p><span id=\"docs-internal-guid-ab99fc51-7fff-efb2-f7e5-75941e429834\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you use art to express your feelings?</span></span><br></p>', 1, '2022-12-25 09:58:35', '2022-12-25 09:58:35'),
+(164, '<p><span id=\"docs-internal-guid-03f6e919-7fff-0c3c-e512-ab331d24dcad\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;Do you love painting?</span></span><br></p>', 1, '2022-12-25 09:59:34', '2022-12-25 09:59:34'),
+(165, '<p><span id=\"docs-internal-guid-cc8f8e71-7fff-dc30-2920-54bbb35c2698\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like performing?</span></span><br></p>', 1, '2022-12-25 10:00:27', '2022-12-25 10:00:27'),
+(166, '<p><span id=\"docs-internal-guid-16a2f2e5-7fff-c698-ed6a-2b8f8a0c7ca0\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to explore different art forms?</span></span><br></p>', 1, '2022-12-25 10:01:31', '2022-12-25 10:01:31'),
+(167, '<p><span id=\"docs-internal-guid-f03f8341-7fff-b3b0-ea52-795c07b4846a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to create things out of any kind of material?</span></span><br></p>', 1, '2022-12-25 10:02:36', '2022-12-25 10:02:36'),
+(168, '<p><span id=\"docs-internal-guid-8aaf37a6-7fff-a2b1-77ec-8549df041dba\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to dance?</span></span><br></p>', 1, '2022-12-25 10:03:37', '2022-12-25 10:03:37'),
+(169, '<p><span id=\"docs-internal-guid-5e0aa13e-7fff-8d95-eecb-969a603cd1bd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to draw?</span></span><br></p>', 1, '2022-12-25 10:04:46', '2022-12-25 10:04:46'),
+(170, '<p><span id=\"docs-internal-guid-95d98d8c-7fff-a536-9a4a-e3e4d6349063\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to combine different types of art styles?</span></span><br></p>', 1, '2022-12-25 10:05:39', '2022-12-25 10:05:39'),
+(171, '<p><span id=\"docs-internal-guid-c9c459c9-7fff-7e5e-cb0b-c45dca1a6968\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you creative when it comes to writing?</span></span><br></p>', 1, '2022-12-25 10:06:39', '2022-12-25 10:06:39');
 
 -- --------------------------------------------------------
 
@@ -1678,8 +1781,6 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (130, 'I think i cant improve my own sales in the future'),
 (131, 'Yes i think the market can help me be successful in the future'),
 (131, 'I think the market cant help me be successful in the future'),
-(39, 'Pick New Stand'),
-(39, 'Done'),
 (132, 'Yes im willing to learn how to handle data using ICT'),
 (132, 'Im not willing to learn how to handle data using ICT'),
 (133, 'Yes i want to become an UX designer'),
@@ -1739,7 +1840,29 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (160, 'Yes im interested in assembling and disassembling system units'),
 (160, 'Im not interested in assembling and disassembling system units'),
 (161, 'Yes i want to become a layout artist'),
-(161, 'I dont want to become a layout artist');
+(161, 'I dont want to become a layout artist'),
+(39, 'Pick New Stand'),
+(39, 'Done'),
+(162, 'Yes i you like arts'),
+(162, 'I dont you like arts'),
+(163, 'Yes i use art to express my feelings'),
+(163, 'No i dont use art to express my feelings'),
+(164, 'Yes i love painting'),
+(164, 'I dont love painting'),
+(165, 'Yes i like performing'),
+(165, 'I dont like performing'),
+(166, 'Yes i love to explore different art forms'),
+(166, 'I dont love to explore different art forms'),
+(167, 'Yes i love to create things out of any kind of material'),
+(167, 'I dont like to create things out of any kind of material'),
+(168, 'Yes i love to dance'),
+(168, 'I dont like to dance'),
+(169, 'Yes i love to draw'),
+(169, 'I dont love to draw'),
+(170, 'Yes i love to combine different types of art styles'),
+(170, 'I dont like to combine different types of art styles'),
+(171, 'Yes im creative when it comes to writing'),
+(171, 'Im not creative when it comes to writing');
 
 -- --------------------------------------------------------
 
@@ -1845,7 +1968,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=162;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=172;
 
 --
 -- AUTO_INCREMENT for table `system_info`
