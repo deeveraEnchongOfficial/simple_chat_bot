@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2022 at 03:06 AM
+-- Generation Time: Dec 25, 2022 at 03:21 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -1329,7 +1329,27 @@ INSERT INTO `keyword_list` (`response_id`, `keyword`) VALUES
 (170, 'Yes i love to draw'),
 (170, 'I dont love to draw'),
 (171, 'Yes i love to combine different types of art styles'),
-(171, 'I dont like to combine different types of art styles');
+(171, 'I dont like to combine different types of art styles'),
+(172, 'Yes im creative when it comes to writing'),
+(172, 'Im not creative when it comes to writing'),
+(173, 'Yes i enjoy people performing in theater arts'),
+(173, 'I dont enjoy people performing in theater arts'),
+(174, 'Yes im interested in fields such as media and visual arts'),
+(174, 'Im not interested in fields such as media and visual arts'),
+(175, 'Yes i love creating new ideas'),
+(175, 'I dont creating new ideas'),
+(176, 'Yes i want to pursue courses such as multimedia arts and graphic design'),
+(176, 'I dont want to pursue courses such as multimedia arts and graphic design'),
+(177, 'Yes im interested in using your sketches and drawings'),
+(177, 'Im not interested in using your sketches and drawings'),
+(178, 'Yes im artistic'),
+(178, 'Im not artistic'),
+(179, 'Yes i think this strand will help me gain knowledge for my future career'),
+(179, 'No i think this strand will not help me gain knowledge for my future career'),
+(180, 'Yes my imagination wide'),
+(180, 'My imagination is not wide'),
+(181, 'Yes i like to discover lots of things'),
+(181, 'I dont like to discover lots of things');
 
 -- --------------------------------------------------------
 
@@ -1514,7 +1534,17 @@ INSERT INTO `response_list` (`id`, `response`, `status`, `date_created`, `date_u
 (168, '<p><span id=\"docs-internal-guid-8aaf37a6-7fff-a2b1-77ec-8549df041dba\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to dance?</span></span><br></p>', 1, '2022-12-25 10:03:37', '2022-12-25 10:03:37'),
 (169, '<p><span id=\"docs-internal-guid-5e0aa13e-7fff-8d95-eecb-969a603cd1bd\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to draw?</span></span><br></p>', 1, '2022-12-25 10:04:46', '2022-12-25 10:04:46'),
 (170, '<p><span id=\"docs-internal-guid-95d98d8c-7fff-a536-9a4a-e3e4d6349063\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love to combine different types of art styles?</span></span><br></p>', 1, '2022-12-25 10:05:39', '2022-12-25 10:05:39'),
-(171, '<p><span id=\"docs-internal-guid-c9c459c9-7fff-7e5e-cb0b-c45dca1a6968\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you creative when it comes to writing?</span></span><br></p>', 1, '2022-12-25 10:06:39', '2022-12-25 10:06:39');
+(171, '<p><span id=\"docs-internal-guid-c9c459c9-7fff-7e5e-cb0b-c45dca1a6968\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you creative when it comes to writing?</span></span><br></p>', 1, '2022-12-25 10:06:39', '2022-12-25 10:06:39'),
+(172, '<p><span id=\"docs-internal-guid-012166a9-7fff-eddf-74dc-088a113b9c37\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you enjoy people performing in theater arts?</span></span><br></p>', 1, '2022-12-25 10:10:26', '2022-12-25 10:10:26'),
+(173, '<p><span id=\"docs-internal-guid-3ce30b2c-7fff-cfd0-c090-fc12bcd23a60\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in fields such as media and visual arts?</span></span><br></p>', 1, '2022-12-25 10:11:16', '2022-12-25 10:11:16'),
+(174, '<p><span id=\"docs-internal-guid-fc138c6a-7fff-a83a-beba-dfebd5a4d90a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you love creating new ideas?</span></span><br></p>', 1, '2022-12-25 10:12:31', '2022-12-25 10:12:31'),
+(175, '<p><span id=\"docs-internal-guid-8c940ae6-7fff-bfec-7c18-161916fce40b\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you want to pursue courses such as multimedia arts and graphic design?</span></span><br></p>', 1, '2022-12-25 10:13:33', '2022-12-25 10:13:33'),
+(176, '<p><span id=\"docs-internal-guid-a51752eb-7fff-aa1f-3dee-8af7f6683b8c\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you interested in using your sketches and drawings for your future career?</span></span><br></p>', 1, '2022-12-25 10:14:37', '2022-12-25 10:14:37'),
+(177, '<p><span id=\"docs-internal-guid-8b9543f8-7fff-b148-ae91-d266cc94893e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Are you artistic?</span></span><br></p>', 1, '2022-12-25 10:15:33', '2022-12-25 10:15:33'),
+(178, '<p><span id=\"docs-internal-guid-9ce558eb-7fff-78eb-c5ab-d337c9cd5a8e\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you think this strand will help you gain knowledge for your future career?</span></span><br></p>', 1, '2022-12-25 10:17:00', '2022-12-25 10:17:00'),
+(179, '<p><span id=\"docs-internal-guid-a5fcc6dc-7fff-f336-3ec7-15cad7d2298a\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Is your imagination wide?</span></span><br></p>', 1, '2022-12-25 10:18:13', '2022-12-25 10:18:13'),
+(180, '<p><span id=\"docs-internal-guid-d9ed1380-7fff-158a-e252-fa4a2a9621b7\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do you like to discover lots of things?</span></span><br></p>', 1, '2022-12-25 10:20:33', '2022-12-25 10:20:33'),
+(181, '<p><span id=\"docs-internal-guid-4ef8c208-7fff-18d4-156c-f2b109abc3e9\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Do movies interest you?</span></span><br></p>', 1, '2022-12-25 10:21:25', '2022-12-25 10:21:25');
 
 -- --------------------------------------------------------
 
@@ -1862,7 +1892,27 @@ INSERT INTO `suggestion_list` (`response_id`, `suggestion`) VALUES
 (170, 'Yes i love to combine different types of art styles'),
 (170, 'I dont like to combine different types of art styles'),
 (171, 'Yes im creative when it comes to writing'),
-(171, 'Im not creative when it comes to writing');
+(171, 'Im not creative when it comes to writing'),
+(172, 'Yes i enjoy people performing in theater arts'),
+(172, 'I dont enjoy people performing in theater arts'),
+(173, 'Yes im interested in fields such as media and visual arts'),
+(173, 'Im not interested in fields such as media and visual arts'),
+(174, 'Yes i love creating new ideas'),
+(174, 'I dont creating new ideas'),
+(175, 'Yes i want to pursue courses such as multimedia arts and graphic design'),
+(175, 'I dont want to pursue courses such as multimedia arts and graphic design'),
+(176, 'Yes im interested in using your sketches and drawings'),
+(176, 'Im not interested in using your sketches and drawings'),
+(177, 'Yes im artistic'),
+(177, 'Im not artistic'),
+(178, 'Yes i think this strand will help me gain knowledge for my future career'),
+(178, 'No i think this strand will not help me gain knowledge for my future career'),
+(179, 'Yes my imagination wide'),
+(179, 'My imagination is not wide'),
+(180, 'Yes i like to discover lots of things'),
+(180, 'I dont like to discover lots of things'),
+(181, 'Movies interest me'),
+(181, 'Movies didnt interest me');
 
 -- --------------------------------------------------------
 
@@ -1968,7 +2018,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `response_list`
 --
 ALTER TABLE `response_list`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=172;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=182;
 
 --
 -- AUTO_INCREMENT for table `system_info`
